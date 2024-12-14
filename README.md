@@ -8,9 +8,9 @@
    Common Patterns: Flags passwords using weak or predictable patterns (e.g., 123456 or password).
    Sequential/Repetitive Characters: Penalizes predictable sequences
 
-example
-## Enter your password: P@ssw0rd123
+## example
 
+### Enter your password: P@ssw0rd123
 output: 
 Password Strength: Moderate (Score: 6/10)
 Feedback:
