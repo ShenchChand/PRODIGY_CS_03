@@ -1,17 +1,22 @@
 
 # The password strength assessment tool evaluates passwords based on:
 
-    Length: Enforce a minimum of 12 characters, strongly encouraging longer passwords.
-    Character Variety: Checks for uppercase, lowercase, numbers, and special characters.
-    Common Patterns: Penalizes passwords with predictable patterns like 123, password, etc.
+   Length: Provides varying scores and feedback for different ranges of password length.
+   Uppercase and Lowercase Letters: Checks for the presence of both and provides guidance if missing.
+   Digits: Evaluates if the password contains numbers.
+   Special Characters: Ensures the inclusion of symbols like !@#$%^&*.
+   Common Patterns: Flags passwords using weak or predictable patterns (e.g., 123456 or password).
+   Sequential/Repetitive Characters: Penalizes predictable sequences
 
 example
-## Input: Pass123!
+## Enter your password: P@ssw0rd123
 
-Output:
-Password Strength: Moderate (Score: 6/9)
+output: 
+Password Strength: Moderate (Score: 6/10)
 Feedback:
-- Fair length (8-11 characters). Consider using 12+.
+- Good length (12-15 characters).
 - Has both uppercase and lowercase letters.
 - Includes numbers.
 - Includes special characters.
+- Avoid common patterns or weak passwords like '123456' or 'password'.
+
